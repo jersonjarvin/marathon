@@ -136,7 +136,7 @@
         ],
         ajax: function (d, callback) {
           $.ajax({
-            url: 'api/ruc/getAll',
+            url: 'api/ruc/get-all',
             type: 'GET',
             dataType: 'json',
             contentType: 'application/json; charset=utf-8',

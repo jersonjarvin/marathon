@@ -34,8 +34,8 @@ public class ApiRucController {
         }
     }
 
-    @GetMapping( "/getAll")
-    public ResponseEntity<ResponeResult> getRuc(){
+    @GetMapping( "/get-all")
+    public ResponseEntity<ResponeResult> getAll(){
         try {
             List<ConsultaRucDto> data = this.rucService.getAll();
 
